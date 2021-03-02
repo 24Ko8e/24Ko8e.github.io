@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" fill="#e5e5e6" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g transform="matrix(0.9,0,0,0.9,25.599999999999994,25.599999999999994)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" fill="#e5e5e6" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g transform="matrix(0.7500000000000001,0,0,0.7500000000000001,63.99999999999997,63.99999999999997)">
 <g xmlns="http://www.w3.org/2000/svg">
 	<g>
 		<path d="M432,416V160H176v-16c0-26.464,21.536-48,48-48h48V0h-48C144.608,0,80,64.608,80,144v16H16v96h64v160H16v96h224v-96h-64    V256h160.896v160H272v96h224v-96H432z" fill="#000000" data-original="#000000" style="" class=""/>
