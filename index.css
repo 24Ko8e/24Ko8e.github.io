@@ -151,7 +151,7 @@ h2::after {
     display: block;
     height: 2px;
     width: 10rem;
-    background: var(--pink);
+    background: var(--purple);
     margin: var(--gutter-small) 0;
 }
 
@@ -248,7 +248,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .btn--pink {
-    background: var(--purple);
+    background: var(--pink);
     transition: all 0.2s;
 }
 
