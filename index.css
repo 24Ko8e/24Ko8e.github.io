@@ -36,6 +36,7 @@
 
     --black: #000;
     --pink: #ff3258;
+    --purple: #b200ff
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -247,7 +248,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .btn--pink {
-    background: var(--pink);
+    background: var(--purple);
     transition: all 0.2s;
 }
 
