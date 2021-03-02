@@ -220,7 +220,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--purple);
+    border: 1px solid var(--purple);
     font-weight: 400;
 }
 
@@ -247,17 +247,17 @@ body:not(.user-is-tabbing) a:focus {
     background: var(--purple);
 }
 
-.btn--purple {
+.btn--pink {
     background: var(--purple);
     transition: all 0.2s;
 }
 
-.btn--purple::after {
+.btn--pink::after {
     display: none;
 }
 
-.btn--purple:hover,
-.btn--purple:focus {
+.btn--pink:hover,
+.btn--pink:focus {
     background: transparent;
 }
 
