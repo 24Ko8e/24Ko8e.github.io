@@ -247,17 +247,17 @@ body:not(.user-is-tabbing) a:focus {
     background: var(--purple);
 }
 
-.btn--pink {
+.btn--purple {
     background: var(--purple);
     transition: all 0.2s;
 }
 
-.btn--pink::after {
+.btn--purple::after {
     display: none;
 }
 
-.btn--pink:hover,
-.btn--pink:focus {
+.btn--purple:hover,
+.btn--purple:focus {
     background: transparent;
 }
 
