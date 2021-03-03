@@ -71,7 +71,7 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white);
+    color: var(--white-1);
     line-height: var(--line-height-normal);
     background: var(--black);
     overflow-x: hidden;
