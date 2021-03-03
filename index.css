@@ -638,5 +638,5 @@ body:not(.user-is-tabbing) a:focus {
 /* And set the max-width of the parent element */
 .video-wrap {
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
 }
