@@ -160,6 +160,62 @@ h3 {
     margin-bottom: var(--gutter-small);
 }
 
+my_work {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--gutter-medium);
+}
+
+my_work::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 23rem;
+    background: var(--purple);
+    margin: var(--gutter-small) 0;
+}
+
+clients {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--gutter-medium);
+}
+
+clients::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 17.4rem;
+    background: var(--purple);
+    margin: var(--gutter-small) 0;
+}
+
+about_me {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--gutter-medium);
+}
+
+about_me::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 24.2rem;
+    background: var(--purple);
+    margin: var(--gutter-small) 0;
+}
+
+get_in_touch {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--gutter-medium);
+}
+
+get_in_touch::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 31.5rem;
+    background: var(--purple);
+    margin: var(--gutter-small) 0;
+}
+
 @media(max-width: 500px) {
     .heading-primary {
         font-size: var(--font-size-large);
