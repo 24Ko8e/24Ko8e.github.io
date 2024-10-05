@@ -211,28 +211,19 @@
           </div>
 
           <!--<div class="work__box">
-            <div class="work__text">
-              <h3>Top Down Survival Shooter</h3>
-              <p>
-                A top down zombie survival game where each level is created procedural level generation algorithm.
-              </p>
-              <ul class="work__list">
-                <li>Unity 3D</li>
-                <li>C#</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://ko8e.itch.io/zombieraid" target="_blank" class="link__text">
-                  Play Web Version <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/24Ko8e/Top-Down-Zombie-Shooter">
-                  <img src="./images/youtube.svg" class="work__code" title="View YouTube Channel" alt="GitHub">
-                </a>
+              <div class="work__text">
+                  <h3>Product Renders</h3>
               </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
-            </div>
+              <div class="work__images__scroll-wrap">
+                  <img src="./images/arrow-left.png" id="BackBtn">
+                  <div class="work__images__scroll">
+                      <img src="./images/project-3.png" alt="Cinque Terre">
+                      <img src="./images/project-3.png" alt="Forest">
+                      <img src="./images/project-3.png" alt="Northern Lights">
+                      <img src="./images/project-3.png" alt="Mountains">
+                  </div>
+                  <img src="./images/arrow-right.png" id="NextBtn">
+              </div>
           </div>-->
         </div>
       </div>
@@ -352,6 +343,27 @@
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
   <script src="./index.js"></script>
+  <!--<script>
+      let WorkImageScrollContainer = document.querySelector(".work__images__scroll");
+      let BackBtn = document.getElementById("BackBtn");
+      let NextBtn = document.getElementById("NextBtn");
+
+      WorkImageScrollContainer.addEventListener("wheel", (evt) => {
+          WorkImageScrollContainer.style.scrollBehavior = "smooth";
+          evt.preventDefault();
+          WorkImageScrollContainer.scrollLeft += evt.deltaY;
+      });
+
+      BackBtn.addEventListener("click", () => {
+          WorkImageScrollContainer.style.scrollBehavior = "smooth";
+          WorkImageScrollContainer.scrollLeft -= 960;
+      });
+
+      NextBtn.addEventListener("click", () => {
+          WorkImageScrollContainer.style.scrollBehavior = "smooth";
+          WorkImageScrollContainer.scrollLeft += 960;
+      });
+  </script>-->
 </body>
 
 </html>

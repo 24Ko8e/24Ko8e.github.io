@@ -497,6 +497,39 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Work ----- */
 /* --------------------------------------- */
 
+.work__images__scroll {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;    
+}
+
+.work__images__scroll img {
+    transition: transform 0.5s;
+}
+
+.work__images__scroll img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.work__images__scroll-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% auto;
+}
+
+#BackBtn, #NextBtn{
+    width: 50px;
+    cursor: pointer;    
+}
+
+.work__images__scroll::-webkit-scrollbar {
+    display: none;
+}
+
 .work__box {
     display: flex;
     align-items: center;
