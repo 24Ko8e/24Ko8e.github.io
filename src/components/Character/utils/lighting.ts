@@ -27,10 +27,9 @@ const setLighting = (scene: THREE.Scene) => {
       scene.environmentRotation.set(5.76, 85.85, 1);
     });
 
-  function setPointLight(screenLight: THREE.Mesh) {
-    const material = Array.isArray(screenLight.material) ? screenLight.material[0] : screenLight.material;
-    if (material.opacity > 0.9) {
-      pointLight.intensity = (material as THREE.MeshStandardMaterial).emissiveIntensity * 20;
+  function setPointLight(screenLight: any) {
+    if (screenLight.material.opacity > 0.9) {
+      pointLight.intensity = screenLight.material.emissiveIntensity * 20;
     } else {
       pointLight.intensity = 0;
     }

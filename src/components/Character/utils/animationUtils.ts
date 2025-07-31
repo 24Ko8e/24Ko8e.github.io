@@ -3,8 +3,8 @@ import { GLTF } from "three-stdlib";
 import { eyebrowBoneNames, typingBoneNames } from "../../../data/boneData";
 
 const setAnimations = (gltf: GLTF) => {
-  const character = gltf.scene;
-  const mixer = new THREE.AnimationMixer(character);
+  let character = gltf.scene;
+  let mixer = new THREE.AnimationMixer(character);
   if (gltf.animations) {
     const introClip = gltf.animations.find(
       (clip) => clip.name === "introAnimation"
@@ -13,7 +13,7 @@ const setAnimations = (gltf: GLTF) => {
     introAction.setLoop(THREE.LoopOnce, 1);
     introAction.clampWhenFinished = true;
     introAction.play();
-    const clipNames = ["key1", "key2", "key5", "key6"];
+    const clipNames = ["key1.002", "key2.002", "key5.002", "key6.002"];
     clipNames.forEach((name) => {
       const clip = THREE.AnimationClip.findByName(gltf.animations, name);
       if (clip) {
@@ -40,12 +40,12 @@ const setAnimations = (gltf: GLTF) => {
     introAction.clampWhenFinished = true;
     introAction.reset().play();
     setTimeout(() => {
-      const blink = gltf.animations.find((clip) => clip.name === "Blink");
+      const blink = gltf.animations.find((clip) => clip.name === "Blink.004");
       mixer.clipAction(blink!).play().fadeIn(0.5);
     }, 2500);
   }
   function hover(gltf: GLTF, hoverDiv: HTMLDivElement) {
-    const eyeBrowUpAction = createBoneAction(
+    let eyeBrowUpAction = createBoneAction(
       gltf,
       mixer,
       "browup",
