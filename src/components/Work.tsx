@@ -53,21 +53,64 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
+          {[{
+            title: "Twinmaster Building",
+            category: "Design",
+            brief: "Real-time simulation and analysis solution for buildings.",
+            tools: "Unreal Engine, C++, Datasmith",
+            image: "/images/placeholder.webp",
+          },
+          {
+            title: "TechuOnTheChair - Game",
+            category: "Gaming",
+            brief: "Competitive 2-player card game where the goal is to acquire most slots on a 5x5 board.",
+            tools: "Unity, C#, Photon PUN 2, Playfab",
+            image: "/images/placeholder.webp",
+          },
+          {
+            title: "Sepax C-Pro VR Training Module",
+            category: "Medical",
+            brief: "Train medical professionals to operate Sepax C-Pro Cell Processing Instrument in an interactive VR space.",
+            tools: "Unity, C#",
+            image: "/images/placeholder.webp",
+          },
+          {
+            title: "Floor Configurator",
+            category: "Configurator",
+            brief: "Configure your complete flooring tile-by-tile with different variations and sizing as per the customers' choice.",
+            tools: "Unity, C#",
+            image: "/images/placeholder.webp",
+          },
+          {
+            title: "ArchViz",
+            category: "Visualization",
+            brief: "Visualize home interiors in an immersive virtual space with a VR headset.",
+            tools: "Unreal Engine, C++",
+            image: "/images/placeholder.webp",
+          },
+          {
+            title: "Game Character Controller Toolkit",
+            category: "Tool",
+            brief: "A fully customizable toolkit for developers to immediate start exploring their virtual worlds without having to program a character everytime they start a project.",
+            tools: "Unity, C#",
+            image: "/images/placeholder.webp",
+          }].map((item, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
-
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>{item.title}</h4>
+                    <p>{item.category}</p>
                   </div>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <h4>Brief</h4>
+                <p>{item.brief}</p>
+                <br></br>
+                <h4>Tools</h4>
+                <p>{item.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image={item.image} alt={item.title} />
             </div>
           ))}
         </div>

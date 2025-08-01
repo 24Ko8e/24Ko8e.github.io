@@ -43,7 +43,11 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          A
+          <img
+            src="/images/logo.png"  // ← Change to your logo path
+            alt="Logo"
+            className="logo"
+          />
         </a>
         <a
           href="mailto:abhishekm942@gmail.com"
