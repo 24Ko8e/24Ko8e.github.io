@@ -21,7 +21,6 @@ const Scene = () => {
   
   const [character, setChar] = useState<THREE.Object3D | null>(null);
   useEffect(() => {
-    console.log("bseryjvutfdasuyb");
     if (canvasDiv.current) {
       let rect = canvasDiv.current.getBoundingClientRect();
       let container = { width: rect.width, height: rect.height };
