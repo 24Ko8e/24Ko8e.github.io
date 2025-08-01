@@ -269,6 +269,13 @@ h2.landing-info-h2 {
     font-size: 38px;
   }
 }
+.sub-name {
+  font-size: 0.6em; /* adjust this value as needed */
+  font-weight: normal; /* optional: change weight */
+  display: inline-block;
+  line-height: 1.2;
+}
+
 @media screen and (min-width: 768px) {
   .character-model {
     height: 80vh;
