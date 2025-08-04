@@ -107,7 +107,7 @@ const filterAnimationTracks = (
   const filteredTracks = clip.tracks.filter((track) =>
     boneNames.some((boneName) => track.name.includes(boneName))
   );
-
+  
   return new THREE.AnimationClip(
     clip.name + "_filtered",
     clip.duration,

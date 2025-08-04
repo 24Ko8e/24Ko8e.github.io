@@ -59,6 +59,7 @@ const Work = () => {
             brief: "Real-time simulation and analysis solution for buildings.",
             tools: "Unreal Engine, C++, Datasmith",
             image: "/images/placeholder.webp",
+            video: "https://www.youtube.com/embed/WbCtwdlFf0M"
           },
           {
             title: "TechuOnTheChair - Game",
@@ -66,6 +67,7 @@ const Work = () => {
             brief: "Competitive 2-player card game where the goal is to acquire most slots on a 5x5 board.",
             tools: "Unity, C#, Photon PUN 2, Playfab",
             image: "/images/placeholder.webp",
+            video: "#"
           },
           {
             title: "Sepax C-Pro VR Training Module",
@@ -73,6 +75,7 @@ const Work = () => {
             brief: "Train medical professionals to operate Sepax C-Pro Cell Processing Instrument in an interactive VR space.",
             tools: "Unity, C#",
             image: "/images/placeholder.webp",
+            video: "#"
           },
           {
             title: "Floor Configurator",
@@ -80,6 +83,7 @@ const Work = () => {
             brief: "Configure your complete flooring tile-by-tile with different variations and sizing as per the customers' choice.",
             tools: "Unity, C#",
             image: "/images/placeholder.webp",
+            video: "#"
           },
           {
             title: "ArchViz",
@@ -87,6 +91,7 @@ const Work = () => {
             brief: "Visualize home interiors in an immersive virtual space with a VR headset.",
             tools: "Unreal Engine, C++",
             image: "/images/placeholder.webp",
+            video: "#"
           },
           {
             title: "Game Character Controller Toolkit",
@@ -94,6 +99,7 @@ const Work = () => {
             brief: "A fully customizable toolkit for developers to immediate start exploring their virtual worlds without having to program a character everytime they start a project.",
             tools: "Unity, C#",
             image: "/images/placeholder.webp",
+            video: "#"
           }].map((item, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
@@ -110,7 +116,7 @@ const Work = () => {
                 <h4>Tools</h4>
                 <p>{item.tools}</p>
               </div>
-              <WorkImage image={item.image} alt={item.title} />
+              <WorkImage image={item.image} alt={item.title} video={item.video} />
             </div>
           ))}
         </div>

@@ -19,8 +19,8 @@ async function decryptFile(inputPath, outputPath, password) {
   console.log(`✅ Decryption complete: saved to ${outputPath}`);
 }
 
-const input = 'character_2.enc';
-const output = 'decrypted_character_2.glb';
+const input = 'character.enc';
+const output = 'decrypted_character.glb';
 const password = 'Character3D#@';
 
 decryptFile(input, output, password).catch(console.error);
