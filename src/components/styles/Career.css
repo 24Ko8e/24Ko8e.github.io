@@ -39,6 +39,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  opacity: 0;
 }
 .career-info-box p {
   width: 40%;
