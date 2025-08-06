@@ -174,6 +174,21 @@ const TechStack = () => {
     <div className="techstack">
       <h2> My Techstack</h2>
 
+      {/* Bulleted list behind the canvas */}
+        <ul className="techstack-list">
+          <li>Unreal Engine</li>
+          <li>C++</li>
+          <li>Unity</li>
+          <li>C#</li>
+          <li>ARCore</li>
+          <li>ARKit</li>
+          <li>PlayCanvas</li>
+          <li>OpenXR</li>
+          <li>OpenCV</li>
+          <li>JavaScript</li>
+          <li>GitHub</li>
+        </ul>
+        
       <Canvas
         shadows
         gl={{ alpha: true, stencil: false, depth: false, antialias: false }}

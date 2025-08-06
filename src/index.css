@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 
 :root {
-  font-family: "Geist", sans-serif;
+  font-family: "Orbitron", sans-serif;
 
   font-optical-sizing: auto;
   font-style: normal;
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Geist", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 body {
   overflow: hidden;
@@ -110,6 +110,23 @@ body {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+.techstack-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  list-style-type: disc;
+  text-align: left;
+  line-height: 1.8;
+  pointer-events: none;
+  max-width: 300px;
+  padding-left: 0em;
+}
+
 
 @media screen and (min-width: 768px) {
   body {
