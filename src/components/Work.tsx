@@ -59,7 +59,7 @@ const Work = () => {
             brief: "Real-time simulation and analysis solution for buildings.",
             tools: "Unreal Engine, C++, Datasmith",
             image: "/images/placeholder.webp",
-            video: "https://www.youtube.com/embed/WbCtwdlFf0M"
+            video: "/work/tm_building/Twinmaster Building Demo.mp4"
           },
           {
             title: "TechuOnTheChair - Game",
