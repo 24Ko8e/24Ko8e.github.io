@@ -24,6 +24,14 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Social</h4>
             <a
+              href="https://www.youtube.com/@kobe_24"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              YouTube <MdArrowOutward />
+            </a>
+            <a
               href="https://github.com/24Ko8e"
               target="_blank"
               data-cursor="disable"
@@ -40,15 +48,7 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href="https://x.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/24_k08e_/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
