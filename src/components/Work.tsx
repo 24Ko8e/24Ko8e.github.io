@@ -54,12 +54,20 @@ const Work = () => {
         </h2>
         <div className="work-flex">
           {[{
+            title: "Body Measurement",
+            category: "Tool",
+            brief: "Measures body parts for cloth fit estimation.",
+            tools: "JS, TS, BodyPix",
+            image: "/images/placeholder.webp",
+            video: "/body-measurement/Cloth Size Estimation and Body Measurement.mp4"
+          },
+          {
             title: "Twinmaster Building",
             category: "Design",
             brief: "Real-time simulation and analysis solution for buildings.",
             tools: "Unreal Engine, C++, Datasmith",
             image: "/images/placeholder.webp",
-            video: "/work/tm_building/Twinmaster Building Demo.mp4"
+            video: "/tm_building/Twinmaster Building Demo.mp4"
           },
           {
             title: "TechuOnTheChair - Game",
@@ -67,7 +75,7 @@ const Work = () => {
             brief: "Competitive 2-player card game where the goal is to acquire most slots on a 5x5 board.",
             tools: "Unity, C#, Photon PUN 2, Playfab",
             image: "/images/placeholder.webp",
-            video: "#"
+            video: "/techu/techuonthechair.mp4"
           },
           {
             title: "Sepax C-Pro VR Training Module",
@@ -75,7 +83,7 @@ const Work = () => {
             brief: "Train medical professionals to operate Sepax C-Pro Cell Processing Instrument in an interactive VR space.",
             tools: "Unity, C#",
             image: "/images/placeholder.webp",
-            video: "#"
+            video: "/sepax-c-pro/Sepax C-Pro Cell Processing Instrument VR training module.mp4"
           },
           {
             title: "Floor Configurator",
@@ -83,7 +91,7 @@ const Work = () => {
             brief: "Configure your complete flooring tile-by-tile with different variations and sizing as per the customers' choice.",
             tools: "Unity, C#",
             image: "/images/placeholder.webp",
-            video: "#"
+            video: "/vizi/Flooring Configurator.mp4"
           },
           {
             title: "ArchViz",
@@ -91,7 +99,7 @@ const Work = () => {
             brief: "Visualize home interiors in an immersive virtual space with a VR headset.",
             tools: "Unreal Engine, C++",
             image: "/images/placeholder.webp",
-            video: "#"
+            video: "/archviz/ArchViz 800 sq. ft. 2BHK apt. on Oculus Quest 2.mp4"
           },
           {
             title: "Game Character Controller Toolkit",
@@ -99,7 +107,7 @@ const Work = () => {
             brief: "A fully customizable toolkit for developers to immediate start exploring their virtual worlds without having to program a character everytime they start a project.",
             tools: "Unity, C#",
             image: "/images/placeholder.webp",
-            video: "#"
+            video: "/character-controller/Advanced Character Controller.mp4"
           }].map((item, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
