@@ -74,8 +74,8 @@ const Work = () => {
             category: "Gaming",
             brief: "Competitive 2-player card game where the goal is to acquire most slots on a 5x5 board.",
             tools: "Unity, C#, Photon PUN 2, Playfab",
-            image: "/images/placeholder.webp",
-            video: "/techu/techuonthechair.mp4"
+            image: "/work/techu/default.webp",
+            video: "/work/techu/TechuOnTheChair.mp4"
           },
           {
             title: "Sepax C-Pro VR Training Module",
