@@ -54,34 +54,35 @@ export function setCharTimeline(
         console.log(child.name);
         if(child.name == "BODYSHIRT001") {
           child.children.forEach((shirt: any) => {
-            if(shirt.name === "Cube137")
+            if(shirt.name === "Cube137"){
               if (shirt.material.name === "Material.031") {
                 shirt.material.color.set("#636363");
               }
               if (shirt.material.name === "Material.032") {
                 shirt.material.color.set("#FFFFFF");
               }
-            });
-          }
-          if(child.name == "Pant001") {
-            child.material = new THREE.MeshStandardMaterial({
-              color: new THREE.Color("#00046e"),
-              metalness: 0.5,
-              roughness: 0.5,
-            });
-          }
-          if(child.name == "Shoe001") {
-            child.material = new THREE.MeshStandardMaterial({
-              color: new THREE.Color("#0d0d0d"),
-              metalness: 0.5,
-              roughness: 0.5,
-            });
-          }
-        });
-      }
-      if (object.name === "Cube002") {
-          object.material.color.set("#0a0a0a");
-      }
+            }
+          });
+        }
+        if(child.name == "Pant001") {
+          child.material = new THREE.MeshStandardMaterial({
+            color: new THREE.Color("#00046e"),
+            metalness: 0.5,
+            roughness: 0.5,
+          });
+        }
+        if(child.name == "Shoe001") {
+          child.material = new THREE.MeshStandardMaterial({
+            color: new THREE.Color("#0d0d0d"),
+            metalness: 0.5,
+            roughness: 0.5,
+          });
+        }
+      });
+    }
+    if (object.name === "Cube002") {
+        object.material.color.set("#0a0a0a");
+    }
     if (object.name === "screenlight") {
       object.material.transparent = true;
       object.material.opacity = 0;
