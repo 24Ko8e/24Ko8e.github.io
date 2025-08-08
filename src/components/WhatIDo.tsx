@@ -126,13 +126,12 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>AUTOMATE</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I have an itch to automate workflows enabling me to be productive on things that deserve my attention.
               </p>
-              <h5>Skillset & tools</h5>
+              {/* <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Blender</div>
                 <div className="what-tags">Zbrush</div>
@@ -142,7 +141,7 @@ const WhatIDo = () => {
                 <div className="what-tags">3D Animation</div>
                 <div className="what-tags">Character Design</div>
                 <div className="what-tags">Modelling</div>
-              </div>
+              </div> */}
               <div className="what-arrow"></div>
             </div>
           </div>
